@@ -1,4 +1,5 @@
-from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QHBoxLayout
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QHBoxLayout, QLayout
+import sip
 
 
 def create_element(opts):
@@ -32,6 +33,9 @@ class PropertiesWidget(QWidget):
         # A dictionary with the following scheme:
         # { section_name : [ name: { value, type } ] }
 
+        if self.layout():
+            sip.delete(self.layout())
+
         layout = QVBoxLayout()
 
         for section in properties:
@@ -43,5 +47,3 @@ class PropertiesWidget(QWidget):
                 lay.addLayout(create_element(element))
 
         self.setLayout(layout)
-
-

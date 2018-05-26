@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QGridLayout
 import sys
 
 from properties_widget import PropertiesWidget
+import threading
 
 
 if __name__ == "__main__":
@@ -17,8 +18,7 @@ if __name__ == "__main__":
     data = {
         'Movement':
         [
-            {
-                'name': 'velocity',
+            {'name': 'velocity',
                 'value': '22',
                 'type': 'text'
             }
@@ -40,6 +40,5 @@ if __name__ == "__main__":
             },
         ]
     }
-    properties.generate_ui(data)
 
     sys.exit(app.exec_())
