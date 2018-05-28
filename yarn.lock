@@ -43,14 +43,6 @@ aws4@^1.6.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.7.0.tgz#d4d0e9b9dbfca77bf08eeb0a8a471550fe39e289"
 
-babylonjs-gui@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/babylonjs-gui/-/babylonjs-gui-3.2.0.tgz#e454b037c1586cf60bc5b8610410308675464bba"
-
-babylonjs@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/babylonjs/-/babylonjs-3.2.0.tgz#14cb71f27adaae1b071a03bd0d292b0fe07e448e"
-
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"

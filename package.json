@@ -20,8 +20,5 @@
   "devDependencies": {
     "electron": "^2.0.2"
   },
-  "dependencies": {
-    "babylonjs": "^3.2.0",
-    "babylonjs-gui": "^3.2.0"
-  }
+  "dependencies": {}
 }
