@@ -1,5 +1,5 @@
 const BABYLON = require('babylonjs')
-
+BABYLON.GUI = require('babylonjs-gui')
 
 window.onload = function() {
     
