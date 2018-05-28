@@ -1,0 +1,19 @@
+{
+  "name": "groundstation",
+  "version": "1.0.0",
+  "description": "An interface for interacting with the Carleton CUInspace Rocket Submission for IREC 2018",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z3t0/groundstation.git"
+  },
+  "author": "Rafi Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z3t0/groundstation/issues"
+  },
+  "homepage": "https://github.com/z3t0/groundstation#readme"
+}
