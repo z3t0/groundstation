@@ -19,5 +19,8 @@
   "homepage": "https://github.com/z3t0/groundstation#readme",
   "devDependencies": {
     "electron": "^2.0.2"
+  },
+  "dependencies": {
+    "babylonjs": "^3.2.0"
   }
 }
